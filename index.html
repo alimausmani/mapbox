@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>map_box_project</title>
+    <title>Mapbox Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h2>map_box</h2>
+    <div class="navbar">
+        <div id="filters">
+            <div id="resturent">Resturents</div>
+            <div id="parks">Parks</div>
+            <div id="Museums">Museums</div>
+        </div>
+    </div>
+
+    <div id="sidebar">
+        <div class="search-box">
+            <input type="text" id="location-search" placeholder="Search location...">
+            <button id="search-btn">Search</button>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
