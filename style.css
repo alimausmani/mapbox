@@ -53,14 +53,13 @@ body {
     background-color: #0056b3;
 }
 
-#filters{
+#filters {
     display: flex;
     gap: 16px;
 }
 
-#resturent{
+#resturent, #parks, #Museums {
     width: 142px;
-    margin-left: 60px;
     height: 36px;
     background: white;
     border-radius: 20px;
@@ -70,28 +69,19 @@ body {
     margin-top: 14px;
     padding-top: 7px;
 }
-#parks{
-    width: 142px;
-    height: 36px;
-    background: white;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 21px;
-    font-weight: 500;
-    margin-top: 14px;
-    padding-top: 7px;
 
+#details-container {
+    margin-top: 20px;
 }
 
-#Museums{
-    width: 142px;
-    height: 36px;
-    background: white;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 21px;
-    font-weight: 500;
-    margin-top: 14px;
-    padding-top: 7px;
+#details-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
 
+#map {
+    width: 84%;
+    height: 465px;
+    margin-left: 291px;
 }

@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapbox Project</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
 </head>
 
 <body>
     <div class="navbar">
         <div id="filters">
-            <div id="resturent">Resturents</div>
+            <div id="resturent">Restaurants</div>
             <div id="parks">Parks</div>
             <div id="Museums">Museums</div>
         </div>
@@ -21,7 +23,13 @@
             <input type="text" id="location-search" placeholder="Search location...">
             <button id="search-btn">Search</button>
         </div>
+        <div id="details-container">
+            <h2>Search Results</h2>
+            <div id="details-content"></div>
+        </div>
     </div>
+
+    <div id="map"></div>
 
     <script src="script.js"></script>
 </body>
